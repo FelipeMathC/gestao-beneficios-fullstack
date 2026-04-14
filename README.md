@@ -10,7 +10,7 @@ Este projeto é uma aplicação Fullstack moderna projetada para gerenciar benef
 ![Lista de Benefícios](docs/lista_beneficios.png.PNG)
 
 ### 📡 Swagger da API
-![Swagger API](docs/swagger.png)
+![Swagger API](docs/swagger.png.PNG)
 
 ---
 

@@ -1,0 +1,33 @@
+<mat-toolbar color="primary">
+  <span>Cadastro de Benefício</span>
+</mat-toolbar>
+
+<form (ngSubmit)="salvar()" style="display: flex; flex-direction: column; gap: 15px; padding: 20px; max-width: 400px;">
+  
+  <mat-form-field appearance="outline">
+    <mat-label>Nome</mat-label>
+    <input matInput [(ngModel)]="beneficio.nome" name="nome" required>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Descrição</mat-label>
+    <textarea matInput [(ngModel)]="beneficio.descricao" name="descricao"></textarea>
+  </mat-form-field>
+
+  <mat-form-field appearance="outline">
+    <mat-label>Valor</mat-label>
+    <input matInput type="number" [(ngModel)]="beneficio.valor" name="valor" required>
+  </mat-form-field>
+
+  <mat-checkbox [(ngModel)]="beneficio.ativo" name="ativo">Ativo</mat-checkbox>
+
+  <div style="display: flex; gap: 10px; margin-top: 20px;">
+  <button mat-raised-button color="primary" type="submit">
+    Salvar
+  </button>
+  
+  <button mat-button type="button" routerLink="/">
+    Cancelar
+  </button>
+</div>
+</form>

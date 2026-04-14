@@ -1,1 +1,18 @@
+# Pastas de compilação (Arquivos gerados automaticamente)
+/target/
+!.mvn/wrapper/maven-wrapper.jar
 
+# Arquivos específicos do Eclipse (Não são necessários no GitHub)
+.settings/
+.target/
+.classpath
+.project
+bin/
+
+# Arquivos temporários e Logs
+*.log
+.factorypath
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

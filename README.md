@@ -7,7 +7,7 @@ Este projeto é uma aplicação Fullstack moderna projetada para gerenciar benef
 ## 📸 Demonstração da Interface
 
 ### 📋 Lista de Benefícios
-![Lista de Benefícios](docs/lista_beneficios.png)
+![Lista de Benefícios](/docs/lista_beneficios.png)
 
 ### 📡 Swagger da API
 ![Swagger API](docs/swagger.png)
